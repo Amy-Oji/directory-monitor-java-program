@@ -4,9 +4,9 @@
 
 This is directory monitor application. It monitors a directory (passed in the programme argument) and reads both existing and newly added files in that directory and prints out statistics such as number of dots, total number of words and the count of most used word to the console.
 
+****
 The application is made up of four packages: the directory monitor, services, fileProcessor and fileStatistics.
 
-****
 
 **directoryMonitor package:** contains the class that is the heart of the application, the monitorDirectory class. It takes a directory path and monitors the directory for create events. It calls the methods that read files, processes statistics, creates a folder for processed files, and moves processed files to the processed folder all within that directory. 
 
