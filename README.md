@@ -1,6 +1,6 @@
 # Directory-Monitor-APP
 
-****
+
 
 This is directory monitor application. It monitors a directory (passed in the programme argument) and reads both existing and newly added files in that directory and prints out statistics such as number of dots, total number of words and the count of most used word to the console.
 
